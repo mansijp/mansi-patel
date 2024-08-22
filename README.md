@@ -1,3 +1,6 @@
+# mansi-patel
+Learn about my professional experiences, projects, and skills and access my resume through my personal portfolio website.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
