@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     background: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
-    background: #2c0234;
+    background: #2c0132;
     color: white;
     overflow: hidden;
     overflow-y: scroll;
