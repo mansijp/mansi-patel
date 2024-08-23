@@ -1,3 +1,71 @@
 .navbar {
     height: 5rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background: #c5c1dc;
+}
+
+.logo {
+    object-fit: cover;
+    height: 4rem;
+    margin: 0 5rem 0 5rem;
+    cursor: pointer;
+}
+
+.logo:hover {
+    border: solid 0.3rem #eef0e3;
+    border-radius: 50%;
+}
+
+.menuItem {
+    margin: 1rem 1.5rem;
+    cursor: pointer; 
+    color: #2c0132;
+    font-weight: normal;
+    font-size: medium;
+}
+
+.menuItem:hover {
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #2c0132;
+}
+
+.resumeBtnContainer{
+    margin-right: 5rem;
+}
+
+.resumeBtn {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    color: #eef0e3;
+    background: #2c0132;
+    border: #eef0e3;
+    border-radius: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.resumeBtn:hover {
+    color: #2c0132;
+    background-color: #eef0e3;
+}
+
+.resumeBtnImg {
+    object-fit: cover;
+    height: 1.2rem;
+    margin: 0 0.5rem 0 0;
+    transition: filter 0.3s;
+}
+
+.resumeBtn:hover .resumeBtnImg {
+    filter: invert(100%);
 }

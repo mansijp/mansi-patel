@@ -1,14 +1,14 @@
 import React from 'react';
 import './navbar.css';
 import logo from '../../img/logo.png';
-//import resume from '../../img/resume.png';
+import resume from '../../img/resume-white.png';
 import {Link} from 'react-scroll';
 
 const Navbar = () => {
     return (
         <nav className="navbar">
             <img src={logo} alt="Logo" className="logo" />
-            <div className="menu">
+            <div className="menuItems">
                 <Link className="menuItem">Home</Link>
                 <Link className="menuItem">About</Link>
                 <Link className="menuItem">Experience</Link>
@@ -18,8 +18,10 @@ const Navbar = () => {
                 <Link className="menuItem">Contact</Link>
             </div>
 
-            <button className="resumeBtn">
-                <img src="" alt="Resume icon" className="homeBtnImg" />Resume</button>
+            <div className="resumeBtnContainer">
+                <button className="resumeBtn">
+                    <img src={resume} alt="Resume icon" className="resumeBtnImg" /><span className="resumeBtn-content">Resume</span></button>
+            </div>
         </nav>
     )
 }
