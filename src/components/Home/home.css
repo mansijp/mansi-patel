@@ -1,0 +1,9 @@
+#home {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    margin: 2rem 7rem 0 7rem; 
+}
+
+.profile {
+    position: absolute;
+}
