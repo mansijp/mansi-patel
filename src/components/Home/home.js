@@ -10,7 +10,7 @@ const Home = () => {
                 <span className="intro">I'm <span className="name">Mansi Patel</span></span><br/>
                 <hr className="line"/>
                 <p className="intro-text">
-                    I am a Software Engineer passionate about full-stack development,<br/>
+                    I am a Software Engineer passionate about full-stack development,
                     cloud computing, and mobile application development.
                 </p>
             </div>
