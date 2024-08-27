@@ -9,7 +9,7 @@
     position: sticky;
     top: 0;
     z-index: 3;
-    background: #c5c1dc;
+    background: #272829;
 }
 
 .logo {
@@ -20,43 +20,46 @@
 }
 
 .logo:hover {
-    border: solid 0.3rem #eef0e3;
+    border: solid 0.3rem #21ddda;
     border-radius: 50%;
 }
 
 .menuItem {
     margin: 1rem 1.5rem;
     cursor: pointer; 
-    color: #2c0132;
+    color: white;
     font-weight: normal;
     font-size: medium;
+    transition: padding-bottom 0.3s, color 0.3s;
 }
 
 .menuItem:hover {
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid #2c0132;
+    border-bottom: 3px solid #21ddda;
+    color: #21ddda;
 }
 
 .resumeBtnContainer{
-    margin-right: 5rem;
+    margin: 0 5rem;
 }
 
 .resumeBtn {
     padding: 0.7rem;
     display: flex;
     align-items: center;
-    color: #eef0e3;
-    background: #2c0132;
-    border: #eef0e3;
+    color: white;
+    background: #272829;
+    border: 1px solid white;
     border-radius: 1rem;
-    font-size: 1rem;
     cursor: pointer;
+    font-weight: bold;
     transition: color 0.3s, background-color 0.3s;
 }
 
 .resumeBtn:hover {
-    color: #2c0132;
-    background-color: #eef0e3;
+    color: #272829;
+    background-color: #21ddda;
+    border: 1px solid #21ddda;
 }
 
 .resumeBtnImg {
