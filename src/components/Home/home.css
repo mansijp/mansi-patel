@@ -1,15 +1,13 @@
 #home {
     height: calc(100vh - 4rem);
-    width: 100vw;
-    margin-top: 1rem;
-    margin-right: 7rem;
-    margin-left: 7rem;
+    width: calc(100vw - 14rem);
+    margin: 2rem 7rem;
 }
 
 .profile {
     position: absolute;
     height: 95vh;
-    top: 6rem;
+    top: 3rem;
     right: 0;
     margin-right: 7rem;
     object-fit: cover;
