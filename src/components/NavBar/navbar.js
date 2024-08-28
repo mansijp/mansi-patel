@@ -11,8 +11,8 @@ const Navbar = () => {
             <div className="menuItems">
                 <Link className="menuItem">Home</Link>
                 <Link className="menuItem">About</Link>
-                <Link className="menuItem">Experience</Link>
                 <Link className="menuItem">Skills</Link>
+                <Link className="menuItem">Experience</Link>
                 <Link className="menuItem">Projects</Link>
                 <Link className="menuItem">Education</Link>
                 <Link className="menuItem">Contact</Link>
