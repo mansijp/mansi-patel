@@ -27,11 +27,11 @@
     margin: 1.5rem 0;
 }
 
-.table-row{
+.table-row-about {
     display: table;
 }
 
-.table-column {
+.table-column-about {
     display: table-cell;
     padding: 2rem;
     text-align: center;

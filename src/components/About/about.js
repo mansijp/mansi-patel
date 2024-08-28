@@ -23,20 +23,20 @@ const About = () => {
 
                 <hr className="line" />
                 
-                <div className="table-row">
-                    <div className="table-column">
+                <div className="table-row-about">
+                    <div className="table-column-about">
                         <span className="interest-title">Temp title</span><br/>
                         <span className="interest-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a lacus in sapien mattis fermentum nec id velit.</span>
                         <br/><img src={placeholder} alt="" className="interest-image" />
                     </div>
                     <div className="divider"></div>
-                    <div className="table-column">
+                    <div className="table-column-about">
                         <span className="interest-title">Temp title</span><br/>
                         <span className="interest-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a lacus in sapien mattis fermentum nec id velit.</span>
                         <br/><img src={placeholder} alt="" className="interest-image" />
                     </div>
                     <div className="divider"></div>
-                    <div className="table-column">
+                    <div className="table-column-about">
                         <span className="interest-title">Temp title</span><br/>
                         <span className="interest-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a lacus in sapien mattis fermentum nec id velit.</span>
                         <br/><img src={placeholder} alt="" className="interest-image" />
