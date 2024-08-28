@@ -1,0 +1,43 @@
+#contact{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #e8dfd1;
+}
+
+.title {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.contact {
+    height: 3rem;
+    transition: transform 0.3s;
+}
+
+.contact:hover {
+    transform: scale(1.3);
+}
+
+.table-row-contact {
+    width: calc(100vw - 14rem);
+    display: table;
+    justify-content: center;
+    border-spacing: 3rem 1rem;
+}
+
+.table-column-contact {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.copyright {
+    color: rgb(168, 168, 168);
+    font-weight: bold;
+    font-size: 1rem;
+    justify-content: right;
+    margin-left: 7rem;
+}
