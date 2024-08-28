@@ -1,0 +1,28 @@
+#skills{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.skill-name {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-items: start;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #800020;
+    border: 2px solid #800020;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.skill-img {
+    height: 2.5rem;
+    grid-column: 1;
+}
+
+#text {
+    grid-column: 2;
+    padding: 0 0.6rem;
+}
