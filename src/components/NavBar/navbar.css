@@ -12,16 +12,16 @@
     background: #f5ebdc;
 }
 
-.logo {
+.light {
     object-fit: cover;
     height: 4rem;
     margin: 0 5rem 0 5rem;
     cursor: pointer;
+    transition: transform 0.8s;
 }
 
-.logo:hover {
-    border: solid 0.3rem #800020;
-    border-radius: 50%;
+.light:hover {
+    transform: rotate(0.5turn) scale(1.2);
 }
 
 .menuItem {
