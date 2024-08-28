@@ -1,7 +1,7 @@
 import React from 'react';
 import './navbar.css';
 import logo from '../../img/logo.png';
-import resume from '../../img/resume-white.png';
+import resume from '../../img/resume-black.png';
 import {Link} from 'react-scroll';
 
 const Navbar = () => {

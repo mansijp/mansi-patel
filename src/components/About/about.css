@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     padding: 2rem 3rem;
-    border: 2px dashed #21ddda;
+    border: 2px dashed #800020;
     border-radius: 10px;
 }
 
@@ -33,33 +33,31 @@
 
 .table-column {
     display: table-cell;
-    justify-content: space-between;
     padding: 2rem;
+    text-align: center;
 }
 
 .divider{
     display: table-cell;
-    background-color: #21ddda;
+    background-color: gray;
     width: 2px;
-    border: 1px solid #21ddda;
+    border: 1px solid gray;
     border-radius: 10px;
 }
 
 .interest-title{
-    display: flex;
-    justify-content: center;
+    display: block;
     font-weight: bold;
     font-size: 1rem;
     padding-bottom: 0.1rem;
 }
 
 .interest-text {
-    display: flex;
-    justify-content: center;
+    display: block;
     line-height: 1.5;
 }
 
 .interest-image{
     height: 25vh;
-    border: 1px solid white;
+    border: 1px solid black;
 }
