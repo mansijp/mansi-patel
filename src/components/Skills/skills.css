@@ -1,7 +1,42 @@
 #skills{
-    width: 100vw;
+    width: calc(100vw - 14rem);
+    margin: 2rem 7rem;
     display: flex;
     justify-content: center;
+}
+
+.skills-content {
+    display: grid;
+    justify-content: center;
+}
+
+.table-skills {
+    display: table;
+    align-items: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.table-row-skills {
+    display: table-row;
+    width: calc(100vw - 14rem);
+    border-spacing: 1rem;
+    align-items: center;
+    vertical-align: middle;
+    background-color: lightgray;
+}
+
+.table-column-skills {
+    display: table-cell;
+}
+
+.skill-section {
+    background-color: gray;
+}
+
+.skill-section-text {
+    font-weight: bold;
+    margin: 2rem 1rem;
 }
 
 .skill-name {
