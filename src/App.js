@@ -1,12 +1,18 @@
-import Navbar from "./components/NavBar/navbar";
-import Home from "./components/Home/home"
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
+
+//All pages
+import Home from "./components/Home/home";
 
 function App() {
   return (
-    <div className="App">
-        <Navbar/>
-        <Home />
-    </div>
+    <Router>
+      <ScrollToTop>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </ScrollToTop>
+    </Router>
   );
 }
 

@@ -1,9 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #home {
-    height: calc(100vh - 4rem);
-    width: 100vw;
-    margin: 2rem 7rem 0 7rem; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.navbar {
+    position: fixed; /* Fixed position for the navbar */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; /* Background for the navbar */
+    z-index: 1000; /* Ensure the navbar is always on top */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+}
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 80px; /* Adjust for navbar height */
+    position: relative;
+}
+
+.home-content {
+    flex: 1;
+    max-width: 50%;
+    padding-right: 2rem;
+    text-align: left;
+}
+
+.hello {
+    font-size: 1.6rem;
+    color: #555;
+}
+
+.intro {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.2;
+}
+
+.name {
+    color: #0077ff;
+}
+
+.line {
+    width: 60px;
+    height: 3px;
+    background-color: #0077ff;
+    margin: 10px 0;
+    border: none;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.profile-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 45%;
 }
 
 .profile {
-    position: absolute;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .home-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-content {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .profile-container {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .profile {
+        width: 60%;
+        max-width: 250px;
+    }
+
+    .intro {
+        font-size: 2rem;
+    }
+
+    .intro-text {
+        font-size: 1rem;
+    }
 }
