@@ -81,9 +81,9 @@
 }
 
 .profile {
-    width: 80%;
+    width: 65%;
     max-width: 400px;
-    border-radius: 50%;
+    border-radius: 80px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
