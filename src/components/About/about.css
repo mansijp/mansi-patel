@@ -1,0 +1,63 @@
+#about{
+    margin: 1rem 7rem;
+    width: calc(100vw - 14rem);
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    border: 2px dashed #800020;
+    border-radius: 10px;
+}
+
+.about-me-title{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    font-weight: bold;
+}
+
+.about-me-description{
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.line {
+    position: relative;
+    border: 1px solid gray;
+    margin: 1.5rem 0;
+}
+
+.table-row-about {
+    display: table;
+}
+
+.table-column-about {
+    display: table-cell;
+    padding: 2rem;
+    text-align: center;
+}
+
+.divider{
+    display: table-cell;
+    background-color: gray;
+    width: 2px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.interest-title{
+    display: block;
+    font-weight: bold;
+    font-size: 1rem;
+    padding-bottom: 0.1rem;
+}
+
+.interest-text {
+    display: block;
+    line-height: 1.5;
+}
+
+.interest-image{
+    height: 25vh;
+    border: 1px solid black;
+}

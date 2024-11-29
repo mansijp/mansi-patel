@@ -3,12 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     background: transparent;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
-    background: #272829;
-    color: white;
+    background: #f5ebdc;
+    color: black;
     overflow: hidden;
     overflow-y: scroll;
 }
