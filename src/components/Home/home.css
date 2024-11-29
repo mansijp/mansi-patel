@@ -11,16 +11,17 @@
     justify-content: flex-start;
     background-color: #f8f8f8;
     color: #333;
+    padding-top: 80px;
 }
 
 .navbar {
-    position: fixed; /* Fixed position for the navbar */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: white; /* Background for the navbar */
-    z-index: 1000; /* Ensure the navbar is always on top */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .home-container {
@@ -30,7 +31,7 @@
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 80px; /* Adjust for navbar height */
+    padding-top: 80px;
     position: relative;
 }
 

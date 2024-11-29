@@ -1,14 +1,10 @@
 import React from 'react';
 import './home.css';
 import MansiPatel from '../../img/mansi.jpg';
-import Navbar from "../NavBar/navbar";
 
 const Home = () => {
     return (
         <section id="home">
-            <div>
-                <Navbar/>
-            </div>
             <div className="home-container">
                 <div className="home-content">
                     <span className="hello">Hello,</span><br/>
