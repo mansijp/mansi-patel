@@ -35,7 +35,7 @@ const About = () => {
                         network with other individuals! There’s also always an ebook with me whenever I’m on-the-go! 
                     </p>
 
-                    <div className="line-container"><i>Click image to enlarge!</i></div><hr id="line-break" />
+                    <div className="line-container"><i id="enlarge-instruct">Click image to enlarge!</i></div><hr id="line-break" />
                     
                     <div className="table-row-about">
                         <div className="table-column-about">
