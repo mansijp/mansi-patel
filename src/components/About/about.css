@@ -1,63 +1,87 @@
-#about{
-    margin: 1rem 7rem;
-    width: calc(100vw - 14rem);
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem 3rem;
-    border: 2px dashed #800020;
-    border-radius: 10px;
+#about {
+    width: 100%;
+    padding: 3rem 0;
+    background-color: #f8f8f8;
+    color: #333;
 }
 
-.about-me-title{
-    font-size: 2rem;
+.about-container {
     display: flex;
     justify-content: center;
-    padding-bottom: 2rem;
-    font-weight: bold;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.about-me-description{
-    font-size: 1.1rem;
+.about-content {
+    text-align: center;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-title {
+    font-size: 2rem;
+    color: #0077ff;
+    font-weight: bold;
+    margin: 1.5rem;
+}
+
+.about-me-description {
+    font-size: 1.2rem;
+    color: #555;
     line-height: 1.6;
 }
 
 .line {
-    position: relative;
-    border: 1px solid gray;
-    margin: 1.5rem 0;
+    width: 60px;
+    height: 3px;
+    background-color: #0077ff;
+    margin: 1.5rem auto;
+    border: none;
 }
 
 .table-row-about {
-    display: table;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
 }
 
 .table-column-about {
-    display: table-cell;
-    padding: 2rem;
+    flex: 1;
+    padding: 1rem;
     text-align: center;
+    max-width: 30%;
 }
 
-.divider{
-    display: table-cell;
-    background-color: gray;
+.divider {
     width: 2px;
-    border: 1px solid gray;
-    border-radius: 10px;
+    background-color: #ccc;
+    margin: 0 1rem;
 }
 
-.interest-title{
-    display: block;
+.interest-title {
+    font-size: 1.2rem;
     font-weight: bold;
-    font-size: 1rem;
-    padding-bottom: 0.1rem;
+    color: #0077ff;
+    display: block;
 }
 
 .interest-text {
-    display: block;
+    font-size: 1rem;
+    color: #555;
     line-height: 1.5;
+    display: block;
 }
 
-.interest-image{
-    height: 25vh;
-    border: 1px solid black;
+.interest-image {
+    width: 70%;
+    height: auto;
+    border-radius: 5%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0.5rem 0;
 }

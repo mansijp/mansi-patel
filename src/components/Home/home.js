@@ -9,7 +9,7 @@ const Home = () => {
                 <div className="home-content">
                     <span className="hello">Hello,</span><br/>
                     <span className="intro">I'm <span className="name">Mansi Patel</span></span><br/>
-                    <hr className="line"/>
+                    <hr id="line"/>
                     <p className="intro-text">
                         I am a Software Engineer with a passion in full-stack development, DevOps,
                         cloud computing, and mobile app development.
