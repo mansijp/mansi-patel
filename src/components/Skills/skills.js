@@ -28,6 +28,7 @@ import JiraLogo from '../../img/skills/jira.png';
 import ALMLogo from '../../img/skills/alm.png';
 import MSProjectLogo from '../../img/skills/msproject.png';
 import GKELogo from '../../img/skills/gke.png';
+import SmartsheetLogo from '../../img/skills/smartsheet.jpg';
 
 const Skills = () => {
 
@@ -124,6 +125,10 @@ const Skills = () => {
                             <img className='skill-img' src={MSProjectLogo} alt="MS Project Logo" />
                             <p className='skill-text'>MS Project</p>
                         </div>
+                        <div className='skill-item'>
+                            <img className='skill-img' src={SmartsheetLogo} alt="Smartsheet Logo" />
+                            <p className='skill-text'>Smartsheet</p>
+                        </div>
                     </div>
                 );
             case 'frameworks':
@@ -204,7 +209,7 @@ const Skills = () => {
                     <div
                         className={`tab ${activeTab === 'frameworks' ? 'active' : ''}`}
                         onClick={() => setActiveTab('frameworks')}>
-                        Frameworks<br/>Libraries
+                        Frameworks<br />Libraries
                     </div>
                     <div
                         className={`tab ${activeTab === 'deployment' ? 'active' : ''}`}
@@ -214,7 +219,7 @@ const Skills = () => {
                     <div
                         className={`tab ${activeTab === 'version-control' ? 'active' : ''}`}
                         onClick={() => setActiveTab('version-control')}>
-                        Versioning<br/>PM Tools
+                        Versioning<br />PM Tools
                     </div>
                 </div>
 
