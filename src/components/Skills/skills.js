@@ -184,6 +184,7 @@ const Skills = () => {
     return (
         <section id="skills">
             <div className="skills-content">
+                <p className="skills-title">My Skills</p>
                 <div className="tabs">
                     <div
                         className={`tab ${activeTab === 'programming' ? 'active' : ''}`}

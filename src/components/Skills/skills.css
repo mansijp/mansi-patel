@@ -94,3 +94,10 @@
 .skill-img:hover {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.435);
 }
+
+.skills-title {
+    font-size: 2rem;
+    color: #0077ff;
+    font-weight: bold;
+    margin: 0 0 3rem 0;
+}
