@@ -4,17 +4,22 @@ import logo from '../../img/logo.png';
 import resumeWhite from '../../img/resume-white.png';
 import resumeBlack from '../../img/resume-blue.png';
 import { HashLink } from 'react-router-hash-link';
+import resume from '../../pages/Mansi_Patel.pdf';
 
 const Navbar = () => {
     const [resumeIcon, setResumeIcon] = useState(resumeWhite);
 
     const handleMouseEnter = () => {
-        setResumeIcon(resumeBlack);
+      setResumeIcon(resumeBlack);
     };
 
     const handleMouseLeave = () => {
-        setResumeIcon(resumeWhite);
+      setResumeIcon(resumeWhite);
     };
+
+    const handleResumeClick = () => {
+      window.open(resume, '_blank');
+    }
 
     const [top, setTop] = useState(!window.scrollY);
 
@@ -43,7 +48,7 @@ const Navbar = () => {
       </div>
 
       <div className="resumeBtnContainer">
-        <button className="resumeBtn" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <button className="resumeBtn" onClick={handleResumeClick} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <img src={resumeIcon} alt="Resume icon" className="resumeBtnImg" />
           <span className="resumeBtn-content">Resume</span>
         </button>
