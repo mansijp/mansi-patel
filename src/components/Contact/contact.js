@@ -10,7 +10,7 @@ const Contact = () => {
         <section id="contact">
             <div className='contact-content'>
                 <div className='table-row-contact'>
-                    <div className='table-column-contact'><span className='title'>Get in Touch: </span></div>
+                    <div className='table-column-contact'><span id='contact-title'>Get in Touch: </span></div>
                     <div className='table-column-contact'>
                         <a href="mailto:mansijpatel321@gmail.com"><img className='contact' src={email} alt="Email" /></a>
                     </div>
@@ -33,4 +33,3 @@ const Contact = () => {
 }
 
 export default Contact;
-
