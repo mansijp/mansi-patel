@@ -2,16 +2,16 @@ import React, { useState } from "react";
 import './experience.css';
 
 // Companies Logo
-import MinistryofEducation from '../../img/ministryofeducation.png';
-import Ryan from '../../img/ryan.png';
-import TMU from '../../img/tmu.jpg';
-import AvisoWealth from '../../img/avisowealth.png';
+import MinistryofEducation from '../../img/experience/ministryofeducation.png';
+import Ryan from '../../img/experience/ryan.png';
+import TMU from '../../img/experience/tmu.jpg';
+import AvisoWealth from '../../img/experience/avisowealth.png';
 
 // Utilities
-import RightArrow from '../../img/rightarrow.png';
-import LeftArrow from '../../img/leftarrow.png';
-import location from '../../img/location.png';
-import date from '../../img/date.png';
+import RightArrow from '../../img/experience/rightarrow.png';
+import LeftArrow from '../../img/experience/leftarrow.png';
+import location from '../../img/experience/location.png';
+import date from '../../img/experience/date.png';
 
 // Skills Logos
 import PythonLogo from '../../img/skills/python.png';

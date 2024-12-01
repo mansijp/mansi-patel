@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import './about.css';
-import webdev from '../../img/webdev.png';
-import hackathons from '../../img/hackathon.png';
-import ai from '../../img/ai.png';
-import enlarge from '../../img/enlarge.png';
+import webdev from '../../img/about/webdev.png';
+import hackathons from '../../img/about/hackathon.png';
+import ai from '../../img/about/ai.png';
+import enlarge from '../../img/about/enlarge.png';
 
 const About = () => {
     const [enlargedImage, setEnlargedImage] = useState(null);

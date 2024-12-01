@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './navbar.css';
 import logo from '../../img/logo.png';
-import resumeWhite from '../../img/resume-white.png';
-import resumeBlack from '../../img/resume-blue.png';
+import resumeWhite from '../../img/navbar/resume-white.png';
+import resumeBlack from '../../img/navbar/resume-blue.png';
 import { HashLink } from 'react-router-hash-link';
 import resume from '../../pages/Mansi_Patel.pdf';
 

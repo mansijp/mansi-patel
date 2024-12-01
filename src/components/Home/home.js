@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css';
-import MansiPatel from '../../img/mansi.jpg';
+import MansiPatel from '../../img/home/mansi.jpg';
 
 const Home = () => {
     return (

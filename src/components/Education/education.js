@@ -1,6 +1,6 @@
 import React from "react";
 import './education.css';
-import uni from '../../img/tmu.jpg';
+import uni from '../../img/experience/tmu.jpg';
 
 const Education = () => {
     return (

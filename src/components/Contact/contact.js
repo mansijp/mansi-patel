@@ -1,9 +1,9 @@
 import React from 'react';
 import './contact.css';
-import email from '../../img/email-icon.png';
-import linkedin from '../../img/linkedin-icon.png';
-import github from '../../img/github-icon.png';
-import devpost from '../../img/devpost-icon.png';
+import email from '../../img/contacts/email-icon.png';
+import linkedin from '../../img/contacts/linkedin-icon.png';
+import github from '../../img/contacts/github-icon.png';
+import devpost from '../../img/contacts/devpost-icon.png';
 
 const Contact = () => {
     return (
