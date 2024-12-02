@@ -146,7 +146,7 @@ const Experience = () => {
                         </header>
                         <div className="skills-used">
                             <h3>Skills</h3>
-                            <div className="skills-list">
+                            <div className="skills-list-left">
                                 {currentExperience.skills.map((skill, index) => (
                                     <div className="skill" key={index}>
                                         <img src={skill.logo} alt={skill.name} className="skill-logo" />
