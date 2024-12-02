@@ -78,7 +78,7 @@ const projects = [
     },
     {
         title: "Library Management System",
-        githubLink: "https://github.com/mansijp/LibraryManagementSystem",
+        githubLink: "https://github.com/mansijp/Library-Management-System",
         skills: [PythonLogo, CSS3Logo, HTML5Logo, FigmaLogo, MongoDBLogo, DockerLogo, KubernetesLogo, GKELogo],
         description: [
             <>
