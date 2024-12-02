@@ -14,34 +14,21 @@ import location from '../../img/experience/location.png';
 import date from '../../img/experience/date.png';
 
 // Skills Logos
-import PythonLogo from '../../img/skills/python.png';
 import JavaLogo from '../../img/skills/java.png';
 import CLogo from '../../img/skills/c.png';
-import ReactLogo from '../../img/skills/react.png';
-import NodeLogo from '../../img/skills/nodejs.png';
-import MongoDBLogo from '../../img/skills/mongodb.png';
 import SQLLogo from '../../img/skills/sql.png';
-import GitLogo from '../../img/skills/git.png';
-import JSLogo from '../../img/skills/javascript.png';
 import ExcelVBALogo from '../../img/skills/excelvba.png';
-import VHDLLogo from '../../img/skills/vhdl.png';
 import HTML5Logo from '../../img/skills/html5.png';
 import CSS3Logo from '../../img/skills/css3.png';
-import JavaFXLogo from '../../img/skills/javafx.png';
 import JSFLogo from '../../img/skills/jsf.png';
 import FigmaLogo from '../../img/skills/figma.png';
-import DockerLogo from '../../img/skills/docker.png';
-import KubernetesLogo from '../../img/skills/kubernetes.png';
 import SpringLogo from '../../img/skills/spring.png';
-import TomcatLogo from '../../img/skills/tomcat.png';
 import WebsphereLogo from '../../img/skills/websphere.png';
 import OracleLogo from '../../img/skills/oracle.png';
 import SVNLogo from '../../img/skills/svn.png';
 import WaveLogo from '../../img/skills/wave.png';
 import JiraLogo from '../../img/skills/jira.png';
 import ALMLogo from '../../img/skills/alm.png';
-import MSProjectLogo from '../../img/skills/msproject.png';
-import GKELogo from '../../img/skills/gke.png';
 import SmartsheetLogo from '../../img/skills/smartsheet.jpg';
 
 const Experience = () => {

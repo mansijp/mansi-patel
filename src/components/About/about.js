@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './about.css';
 import webdev from '../../img/about/webdev.png';
 import hackathons from '../../img/about/hackathon.png';
-import ai from '../../img/about/ai.png';
+import ai from '../../img/about/emotiondetection.png';
 import enlarge from '../../img/about/enlarge.png';
 
 const About = () => {

@@ -1,0 +1,110 @@
+#projects {
+    width: 100%;
+    padding: 3rem 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projects-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-card {
+    width: calc(33.33% - 2rem);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;;
+}
+
+.project-title {
+    font-size: 1.6rem;
+    color: #0077ff;
+    font-weight: bold;
+    margin: 0;
+}
+
+.github-link img {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.skill-icon {
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+}
+
+.project-description {
+    font-size: 1rem;
+    color: #555;
+}
+
+.project-description ul {
+    padding-left: 1.5rem;
+}
+
+.project-description ul li {
+    margin-bottom: 0.5rem;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.projects-title {
+    font-size: 2rem;
+    color: #0077ff;
+    font-weight: bold;
+    margin: 0 0 2rem 0;
+}
+
+.demo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0rem 0.5rem 0rem;
+}
+
+#divider {
+    width: 20%;
+    height: 0.2rem;
+    background-color: #0077ff;
+    margin: 0 0 2rem 0;    
+}

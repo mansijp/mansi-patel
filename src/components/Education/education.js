@@ -5,6 +5,8 @@ import uni from '../../img/experience/tmu.jpg';
 const Education = () => {
     return (
         <section id="education">
+            <div className="education-title-container">
+                <p className="education-title">Education</p>
             <div className="education-container">
                 <div className="education-content">
                     <div className="education-logo-container">
@@ -21,6 +23,7 @@ const Education = () => {
                         <p className="education-duration">Expected Graduation: May 2025</p>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
     );
