@@ -59,6 +59,7 @@
 
 .skills-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 2rem 0;
 }
@@ -67,6 +68,7 @@
     width: 3rem;
     height: 3rem;
     object-fit: contain;
+    margin: 0 0.3rem;
 }
 
 .project-description {

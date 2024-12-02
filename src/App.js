@@ -1,5 +1,4 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import ScrollToTop from './components/ScrollToTop';
 
 //All pages
 import Navbar from "./components/NavBar/navbar";
@@ -22,7 +21,6 @@ function App() {
       <Projects />
       <Education />
       <Contact />
-      <ScrollToTop />
     </Router>
   );
 }
