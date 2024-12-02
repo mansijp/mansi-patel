@@ -1,8 +1,8 @@
 #experience {
     width: 100%;
     padding: 3rem 0;
-    background-color: #f8f8f8;
-    color: #333;
+    background-color: var(--background-color);
+    color: var(--title-text-color);
 }
 
 .experience-container {
@@ -26,7 +26,7 @@
 .experience-card {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: var(--content-background);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 2rem;
@@ -47,7 +47,7 @@
     height: 10px;
     width: 10px;
     margin: 0 5px;
-    background-color: #d3d3d3;
+    background-color: var(--divider-background);
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.3s;
@@ -94,6 +94,7 @@
     width: 4.5rem;
     height: 4.5rem;
     margin: 0 3rem 0 1rem;
+    border-radius: 15%;
     object-fit: cover;
 }
 
@@ -120,9 +121,8 @@
     align-items: center;
 }
 
-.dates,
-.location {
-    color: #555;
+.dates, .location {
+    color: var(--normal-text-color);
 }
 
 .icon {
@@ -163,7 +163,7 @@ h3 {
 .skill-name {
     margin-top: 0.5rem;
     font-size: 1rem;
-    color: black;
+    color: var(--skill-name-color);
 }
 
 ul {

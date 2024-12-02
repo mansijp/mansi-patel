@@ -1,7 +1,7 @@
 #contact {
     width: 100%;
     padding: 2rem 0;
-    background-color: #f2f2f2;
+    background-color: var(--background-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,12 +51,13 @@
     height: 60px;
     border-radius: 50%;
     object-fit: cover;
+    border: 2px solid var(--skill-name-color);
     transition: transform 0.3s, box-shadow 0.3s ease-in-out;
 }
 
 .contact:hover {
-    transform: scale(1.3);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .copyright {

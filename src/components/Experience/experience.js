@@ -29,7 +29,7 @@ import SVNLogo from '../../img/skills/svn.png';
 import WaveLogo from '../../img/skills/wave.png';
 import JiraLogo from '../../img/skills/jira.png';
 import ALMLogo from '../../img/skills/alm.png';
-import SmartsheetLogo from '../../img/skills/smartsheet.jpg';
+import SmartsheetLogo from '../../img/skills/smartsheet.png';
 
 const Experience = () => {
     const experiences = [

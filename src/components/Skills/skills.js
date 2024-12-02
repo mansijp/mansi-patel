@@ -28,7 +28,7 @@ import JiraLogo from '../../img/skills/jira.png';
 import ALMLogo from '../../img/skills/alm.png';
 import MSProjectLogo from '../../img/skills/msproject.png';
 import GKELogo from '../../img/skills/gke.png';
-import SmartsheetLogo from '../../img/skills/smartsheet.jpg';
+import SmartsheetLogo from '../../img/skills/smartsheet.png';
 
 const Skills = () => {
 

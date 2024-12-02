@@ -1,0 +1,32 @@
+.light-mode {
+  /*backgrounds*/
+  --background-color: #f8f8f8;
+  --content-background: white;
+  --divider-background: #ccc;
+  --tab-background-hover: #ddd;
+  --footer-background: #f2f2f2;
+
+  /*fonts*/
+  --title-text-color: #333;
+  --normal-text-color: #555;
+  --skill-name-color: black;
+
+}
+
+.dark-mode {
+  /*backgrounds*/
+  --background-color: #121212;
+  --content-background: #414141;
+  --divider-background: #555555;
+  --tab-background-hover: #666666;
+  --footer-background: #121212;
+
+  /*fonts*/
+  --title-text-color: #f0f0f0;
+  --normal-text-color: #d1d1d1;
+  --skill-name-color: white;
+}
+
+#navbar, #home, #about, #experience, #skills, #projects, #education, #contacts {
+  transition: background-color 0.5s, color 0.5s;
+}

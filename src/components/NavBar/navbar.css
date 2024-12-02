@@ -14,7 +14,7 @@
     position: sticky;
     top: 0;
     z-index: 3;
-    background-color: #f8f8f8;
+    background-color: var(--background-color);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     z-index: 1;
 }
@@ -49,7 +49,7 @@
 .menuItem {
     margin: 0 1.5rem;
     cursor: pointer;
-    color: #333;
+    color: var(--title-text-color);
     font-weight: normal;
     font-size: 1.1rem;
     transition: color 0.3s, padding-bottom 0.3s;
@@ -85,7 +85,7 @@
 }
 
 .resumeBtn:hover {
-    background-color: white;
+    background-color: var(--content-background);
     color: #0077ff;
     border: 1px solid #0077ff;
 }
@@ -95,6 +95,25 @@
     height: 1.4rem;
     margin-right: 0.5rem;
     transition: filter 0.3s ease, opacity 0.3s ease;;
+}
+
+.day {
+    border-radius: 50%;
+    border: 0.05rem transparent;
+    height: 3rem;
+    width: auto;
+    margin: 0 0 0 1.5rem;
+    transition: transform 0.7s;
+}
+
+.night {
+    border-radius: 50%;
+    border: 0.05rem transparent;
+    height: 3rem;
+    width: auto;
+    margin: 0 0 0 1.5rem;
+    transform: rotate(180deg);
+    transition: transform 0.7s;
 }
 
 
@@ -114,7 +133,7 @@
         position: absolute;
         top: 5rem;
         left: 0;
-        background-color: #f8f8f8;
+        background-color: var(--background-color);
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
     }
 

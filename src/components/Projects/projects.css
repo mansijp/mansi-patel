@@ -1,8 +1,8 @@
 #projects {
     width: 100%;
     padding: 3rem 0;
-    background-color: #f8f8f8;
-    color: #333;
+    background-color: var(--background-color);
+    color: var(--title-text-color);
 }
 
 .projects-container {
@@ -23,7 +23,7 @@
 
 .project-card {
     width: calc(33.33% - 2rem);
-    background-color: white;
+    background-color: var(--content-background);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
@@ -73,7 +73,7 @@
 
 .project-description {
     font-size: 1rem;
-    color: #555;
+    color: var(--normal-text-color);
 }
 
 .project-description ul {
@@ -108,5 +108,6 @@
     width: 20%;
     height: 0.2rem;
     background-color: #0077ff;
+    border-color: #0077ff;
     margin: 0 0 2rem 0;    
 }

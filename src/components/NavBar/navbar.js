@@ -3,10 +3,11 @@ import './navbar.css';
 import logo from '../../img/logo.png';
 import resumeWhite from '../../img/navbar/resume-white.png';
 import resumeBlack from '../../img/navbar/resume-blue.png';
+import LightSetting from '../../img/light-setting.png';
 import { HashLink } from 'react-router-hash-link';
 import resume from '../../pages/Mansi_Patel.pdf';
 
-const Navbar = () => {
+const Navbar = ({setIsNight, isNight}) => {
     const [resumeIcon, setResumeIcon] = useState(resumeWhite);
 
     const handleMouseEnter = () => {
@@ -31,6 +32,10 @@ const Navbar = () => {
         return () => window.removeEventListener('scroll', scrollHandler);
     }, [top]);
 
+    const handleLightClick = () => {
+      setIsNight(!isNight);
+    };
+
   return (
     <nav className="navbar">
       <HashLink smooth to="/#home">
@@ -52,6 +57,10 @@ const Navbar = () => {
           <img src={resumeIcon} alt="Resume icon" className="resumeBtnImg" />
           <span className="resumeBtn-content">Resume</span>
         </button>
+      </div>
+
+      <div className="lightContainer">
+          <img src={LightSetting} alt="Light setting icon" className={isNight ? 'night' : 'day'} onClick={handleLightClick}/>
       </div>
     </nav>
   );

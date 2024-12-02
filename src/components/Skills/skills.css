@@ -1,8 +1,8 @@
 #skills {
     width: 100%;
     padding: 3rem 0;
-    background-color: #f8f8f8;
-    color: #333;
+    background-color: var(--background-color);
+    color: var(--title-text-color);
 }
 
 .skills-content {
@@ -26,18 +26,18 @@
 .tab {
     padding: 1rem 2rem;
     cursor: pointer;
-    background-color: #f4f4f4;
+    background-color: var(--content-background);
     border-radius: 10px;
-    border: 2px solid #ccc;
+    border: 2px solid var(--divider-background);
     margin: 0 1rem;
     transition: background-color 0.3s, transform 0.2s ease-in-out;
-    color: #333;
+    color: var(--title-text-color);
     align-content: center;
     text-align: center;
 }
 
 .tab:hover {
-    background-color: #ddd;
+    background-color: var(--tab-background-hover);
     transform: scale(1.05);
 }
 
@@ -49,7 +49,7 @@
 
 .skill-section {
     padding: 2rem;
-    background-color: white;
+    background-color: var(--content-background);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 100%;
@@ -82,7 +82,7 @@
 .skill-text {
     margin-top: 0.5rem;
     font-weight: bold;
-    color: #333;
+    color: var(--title-text-color);
     font-size: 1rem;
     text-align: center;
 }
