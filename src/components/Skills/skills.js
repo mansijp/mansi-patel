@@ -194,7 +194,7 @@ const Skills = () => {
                     <div
                         className={`tab ${activeTab === 'programming' ? 'active' : ''}`}
                         onClick={() => setActiveTab('programming')}>
-                        Programming Languages
+                        Programming<br/>Languages
                     </div>
                     <div
                         className={`tab ${activeTab === 'design' ? 'active' : ''}`}
