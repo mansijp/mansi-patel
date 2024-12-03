@@ -14,7 +14,7 @@ import Contact from "./components/Contact/contact";
 import './App.css';
 
 function App() {
-  const [lightSetting, setLightSetting] = useState(true);
+  const [lightSetting, setLightSetting] = useState(false);
   const handleLightSettingChange = (newSetting) => {
     setLightSetting(newSetting);
   };
