@@ -37,7 +37,7 @@ const Navbar = ({setIsNight, isNight}) => {
     };
 
   return (
-    <nav className="navbar">
+    <section className="navbar">
       <HashLink smooth to="/#home">
         <img src={logo} alt="Logo" className="logo" />
       </HashLink>
@@ -62,7 +62,7 @@ const Navbar = ({setIsNight, isNight}) => {
       <div className="lightContainer">
           <img src={LightSetting} alt="Light setting icon" className={isNight ? 'night' : 'day'} onClick={handleLightClick}/>
       </div>
-    </nav>
+    </section>
   );
 };
 
