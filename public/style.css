@@ -9,5 +9,6 @@
 body {
     background: var(--background-color);
     color: black;
+    overflow-x: hidden;
     overflow-y: scroll;
 }
