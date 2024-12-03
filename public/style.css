@@ -9,12 +9,12 @@
 html, body {
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
 }
 
 body {
     background: #f8f8f8;
     color: black;
+    overflow-x: hidden;
     overflow-y: scroll;
     display: flex;
     flex-direction: column;
