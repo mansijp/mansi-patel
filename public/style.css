@@ -7,8 +7,7 @@
 }
 
 body {
-    background: #f5ebdc;
+    background: var(--background-color);
     color: black;
-    overflow: hidden;
     overflow-y: scroll;
 }
