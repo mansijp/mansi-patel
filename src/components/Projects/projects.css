@@ -22,7 +22,7 @@
 }
 
 .project-card {
-    width: calc(33.33% - 2rem);
+    width: 30%;
     background-color: var(--content-background);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -41,7 +41,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1rem;;
+    margin-bottom: 1rem;
 }
 
 .project-title {
@@ -49,6 +49,16 @@
     color: #0077ff;
     font-weight: bold;
     margin: 0;
+    flex: 1 1 60%;
+    min-width: 0;
+}
+
+.github-link {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex: 0 0 auto;
 }
 
 .github-link img {
@@ -110,4 +120,11 @@
     background-color: #0077ff;
     border-color: #0077ff;
     margin: 0 0 2rem 0;    
+}
+
+@media (max-width: 450px) {
+    .project-card{
+        width: 90%;
+        flex-direction: column;
+    }
 }

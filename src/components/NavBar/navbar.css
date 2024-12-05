@@ -115,6 +115,10 @@
     transition: transform 0.7s;
 }
 
+.menuContainer{
+    display: none;
+}
+
 
 @media (max-width: 768px) {
     .navbar {
@@ -153,4 +157,27 @@
         font-size: 0.9rem;
         padding: 0.5rem 1rem;
     }
+
+    .menuContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+
+    .menuBtn {
+        border: none;
+    }
+
+    .menuBtnImg{
+        height: 3rem;
+        width: auto;
+        margin: 0 1rem;
+        border: none;
+    }
+    
+    .menuContainer img{
+        border: none;
+    }
+
 }

@@ -3,6 +3,7 @@ import './navbar.css';
 import logo from '../../img/logo.png';
 import resumeWhite from '../../img/navbar/resume-white.png';
 import resumeBlack from '../../img/navbar/resume-blue.png';
+import menuIcon from '../../img/navbar/menu.png';
 import LightSetting from '../../img/light-setting.png';
 import { HashLink } from 'react-router-hash-link';
 import resume from '../../pages/Mansi_Patel.pdf';
@@ -50,6 +51,12 @@ const Navbar = ({setIsNight, isNight}) => {
         <HashLink smooth to="/#projects" className="menuItem">Projects</HashLink>
         <HashLink smooth to="/#education" className="menuItem">Education</HashLink>
         <HashLink smooth to="/#contact" className="menuItem">Contact</HashLink>
+      </div>
+
+      <div className="menuContainer">
+        <button className="menuBtn">
+          <img src={menuIcon} alt="Menu icon" className="menuBtnImg" />
+        </button>
       </div>
 
       <div className="resumeBtnContainer">
