@@ -10,6 +10,11 @@ import resume from '../../pages/Mansi_Patel.pdf';
 
 const Navbar = ({setIsNight, isNight}) => {
     const [resumeIcon, setResumeIcon] = useState(resumeWhite);
+    const [isMenuOpen, setIsMenuOpen] = useState(false); 
+
+    const toggleMenu = () => {
+      setIsMenuOpen(!isMenuOpen);
+    };
 
     const handleMouseEnter = () => {
       setResumeIcon(resumeBlack);
@@ -43,7 +48,7 @@ const Navbar = ({setIsNight, isNight}) => {
         <img src={logo} alt="Logo" className="logo" />
       </HashLink>
       
-      <div className="menuItems">
+      <div className={`menuItems ${isMenuOpen ? 'active' : ''}`}>
         <HashLink smooth to="/#home" className="menuItem">Home</HashLink>
         <HashLink smooth to="/#about" className="menuItem">About</HashLink>
         <HashLink smooth to="/#experience" className="menuItem">Experience</HashLink>
@@ -54,7 +59,7 @@ const Navbar = ({setIsNight, isNight}) => {
       </div>
 
       <div className="menuContainer">
-        <button className="menuBtn">
+        <button className="menuBtn" onClick={toggleMenu}>
           <img src={menuIcon} alt="Menu icon" className="menuBtnImg" />
         </button>
       </div>
