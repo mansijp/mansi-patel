@@ -93,7 +93,7 @@
     object-fit: cover;
     height: 1.4rem;
     margin-right: 0.5rem;
-    transition: filter 0.3s ease, opacity 0.3s ease;;
+    transition: filter 0.3s ease, opacity 0.3s ease;
 }
 
 .day {
@@ -120,6 +120,8 @@
 }
 
 
+/********* Phone and Small Screens Accomodation *********/
+
 @media (max-width: 1000px) {
     .navbar {
         padding: 1rem;
@@ -132,51 +134,68 @@
     .menuItems {
         display: none;
         flex-direction: column;
-        width: 100%;
+        width: 60%;
         position: absolute;
         top: 5rem;
         left: 0;
-        border: 1px solid white;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
     }
 
     .menuItems.active {
         display: flex;
-        background-color: var(--tab-background-hover);
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0);
-        animation-name: slideDown;
-        animation-duration: 0.5s;
-        animation-timing-function: ease-out;
+        background: transparent;
     }
 
-    .menuItem {
-        padding: 1rem;
-        font-size: 1.2rem;
+    .menuItemContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
         opacity: 0;
-        transform: translateY(-1.25em);
+        transform: translateY(-100%);
         animation-name: fadeInSlide;
-        animation-duration: 0.5s;
-        animation-timing-function: ease-out;
-        animation-fill-mode: forwards; 
+        animation-duration: 0.15s;
+        animation-timing-function: ease-in;
+        animation-fill-mode: forwards;
+        background-color: var(--tab-background-hover);
     }
 
-    .menuItems .menuItem:nth-child(1) { animation-delay: 0.15s; }
-    .menuItems .menuItem:nth-child(2) { animation-delay: 0.3s; }
-    .menuItems .menuItem:nth-child(3) { animation-delay: 0.45s; }
-    .menuItems .menuItem:nth-child(4) { animation-delay: 0.6s; }
-    .menuItems .menuItem:nth-child(5) { animation-delay: 0.75s; }
-    .menuItems .menuItem:nth-child(6) { animation-delay: 0.9s; }
-    .menuItems .menuItem:nth-child(7) { animation-delay: 1.05s; }
+    .menuItemContainer:nth-child(1) { animation-delay: 0s; }
+    .menuItemContainer:nth-child(2) { animation-delay: 0.15s; }
+    .menuItemContainer:nth-child(3) { animation-delay: 0.3s; }
+    .menuItemContainer:nth-child(4) { animation-delay: 0.45s; }
+    .menuItemContainer:nth-child(5) { animation-delay: 0.6s; }
+    .menuItemContainer:nth-child(6) { animation-delay: 0.75s; }
+    .menuItemContainer:nth-child(7) { animation-delay: 0.9s; }
+
+    .menuItemContainer:not(:last-child) {
+        border-bottom: 2px solid var(--footer-background);
+    }
 
     @keyframes fadeInSlide {
         0% {
+            transform: translateY(-100%);
             opacity: 0;
-            transform: translateY(-1.25em);
+            box-shadow: 0 0 0 rgba(0, 0, 0, 0);
         }
         100% {
-            opacity: 1;
             transform: translateY(0);
+            opacity: 1;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.0);
         }
+    }
+
+    .menuItem {
+        text-decoration: none;
+        padding: 1rem;
+        font-size: 1.2rem;
+        color: var(--title-text-color);
+        transition: color 0.3s, padding-bottom 0.3s;
+    }
+
+    .menuItem:hover {
+        padding-bottom: 0.5rem;
+        border-bottom: 3px solid #0077ff;
+        color: #0077ff;
     }
 
     .resumeBtnContainer {
@@ -205,9 +224,8 @@
         margin: 0 1rem;
         border: none;
     }
-    
+
     .menuContainer img{
         border: none;
     }
-
 }

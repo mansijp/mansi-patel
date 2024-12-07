@@ -10,10 +10,14 @@ import resume from '../../pages/Mansi_Patel.pdf';
 
 const Navbar = ({setIsNight, isNight}) => {
     const [resumeIcon, setResumeIcon] = useState(resumeWhite);
-    const [isMenuOpen, setIsMenuOpen] = useState(false); 
+    const [menuOpen, setMenuOpen] = useState(true); 
 
     const toggleMenu = () => {
-      setIsMenuOpen(!isMenuOpen);
+      if(menuOpen === false){
+        setTimeout(() => { setMenuOpen(!menuOpen); }, 300);
+      } else {
+        setMenuOpen(!menuOpen);
+      }
     };
 
     const handleMouseEnter = () => {
@@ -48,14 +52,28 @@ const Navbar = ({setIsNight, isNight}) => {
         <img src={logo} alt="Logo" className="logo" />
       </HashLink>
       
-      <div className={`menuItems ${isMenuOpen ? 'active' : ''}`}>
-        <HashLink smooth to="/#home" className="menuItem">Home</HashLink>
-        <HashLink smooth to="/#about" className="menuItem">About</HashLink>
-        <HashLink smooth to="/#experience" className="menuItem">Experience</HashLink>
-        <HashLink smooth to="/#skills" className="menuItem">Skills</HashLink>
-        <HashLink smooth to="/#projects" className="menuItem">Projects</HashLink>
-        <HashLink smooth to="/#education" className="menuItem">Education</HashLink>
-        <HashLink smooth to="/#contact" className="menuItem">Contact</HashLink>
+      <div className={`menuItems ${menuOpen ? 'active' : ''}`}>
+        <div className="menuItemContainer">
+          <HashLink onClick={toggleMenu} smooth to="/#home" className="menuItem">Home</HashLink>
+        </div>
+        <div className="menuItemContainer">
+          <HashLink onClick={toggleMenu} smooth to="/#about" className="menuItem">About</HashLink>
+        </div>
+        <div className="menuItemContainer">
+          <HashLink onClick={toggleMenu} smooth to="/#experience" className="menuItem">Experience</HashLink>
+        </div>
+        <div className="menuItemContainer">
+          <HashLink onClick={toggleMenu} smooth to="/#skills" className="menuItem">Skills</HashLink>
+        </div>
+        <div className="menuItemContainer">
+          <HashLink onClick={toggleMenu} smooth to="/#projects" className="menuItem">Projects</HashLink>
+        </div>
+        <div className="menuItemContainer">
+          <HashLink onClick={toggleMenu} smooth to="/#education" className="menuItem">Education</HashLink>
+        </div>
+        <div className="menuItemContainer">
+          <HashLink onClick={toggleMenu} smooth to="/#contact" className="menuItem">Contact</HashLink>
+        </div>
       </div>
 
       <div className="menuContainer">
