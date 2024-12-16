@@ -10,13 +10,13 @@ import resume from '../../pages/Mansi_Patel.pdf';
 
 const Navbar = ({setIsNight, isNight}) => {
     const [resumeIcon, setResumeIcon] = useState(resumeWhite);
-    const [menuOpen, setMenuOpen] = useState(true); 
+    const [menuOpen, setMenuOpen] = useState(false); 
 
     const toggleMenu = () => {
-      if(menuOpen === false){
-        setTimeout(() => { setMenuOpen(!menuOpen); }, 300);
-      } else {
+      if(menuOpen === true){
         setMenuOpen(!menuOpen);
+      } else {
+        setTimeout(() => { setMenuOpen(!menuOpen); }, 300);
       }
     };
 
@@ -76,6 +76,7 @@ const Navbar = ({setIsNight, isNight}) => {
         </div>
       </div>
 
+      <div className="spacer" />
       <div className="menuContainer">
         <button className="menuBtn" onClick={toggleMenu}>
           <img src={menuIcon} alt="Menu icon" className="menuBtnImg" />

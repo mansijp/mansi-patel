@@ -119,6 +119,10 @@
     display: none;
 }
 
+.spacer {
+    display: none;
+}
+
 
 /********* Phone and Small Screens Accomodation *********/
 
@@ -134,7 +138,7 @@
     .menuItems {
         display: none;
         flex-direction: column;
-        width: 60%;
+        width: 100%;
         position: absolute;
         top: 5rem;
         left: 0;
@@ -143,6 +147,11 @@
     .menuItems.active {
         display: flex;
         background: transparent;
+    }
+
+    .spacer{
+        display: flex;
+        width: 100%;
     }
 
     .menuItemContainer {
@@ -168,7 +177,19 @@
     .menuItemContainer:nth-child(7) { animation-delay: 0.9s; }
 
     .menuItemContainer:not(:last-child) {
-        border-bottom: 2px solid var(--footer-background);
+        border-bottom: 2px;
+        border-left: 20px;
+        border-right:20px;
+        border-style: solid;
+        border-color: var(--divider-background);
+    }
+
+    .menuItemContainer:last-child {
+        border-bottom: 20px;
+        border-left: 20px;
+        border-right:20px;
+        border-style: solid;
+        border-color: var(--divider-background);
     }
 
     @keyframes fadeInSlide {
@@ -185,6 +206,9 @@
     }
 
     .menuItem {
+        width: 100%;
+        display: flex;
+        justify-content: center;
         text-decoration: none;
         padding: 1rem;
         font-size: 1.2rem;
