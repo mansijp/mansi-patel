@@ -252,4 +252,12 @@
     .menuContainer img{
         border: none;
     }
+
+    .resumeBtn-content{
+        display: none;
+    }
+
+    .resumeBtnImg{
+        margin: 0;
+    }
 }
