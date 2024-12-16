@@ -157,7 +157,7 @@ const Experience = () => {
 
         setTimeout(() => {
             const experienceCard = document.getElementById("experienceCard");
-            experienceCard.scrollIntoView({ behavior: 'auto', block: 'center' });
+            experienceCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }, 600);
     };
 
@@ -174,7 +174,7 @@ const Experience = () => {
 
         setTimeout(() => {
             const experienceCard = document.getElementById("experienceCard");
-            experienceCard.scrollIntoView({ behavior: 'auto', block: 'center' });
+            experienceCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }, 600);
     };
 
