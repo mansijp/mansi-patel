@@ -154,6 +154,11 @@ const Experience = () => {
         setTimeout(() => {
             slideInFromLeft();
         }, 500);
+
+        setTimeout(() => {
+            const experienceCard = document.getElementById("experienceCard");
+            experienceCard.scrollIntoView({ behavior: 'auto', block: 'center' });
+        }, 600);
     };
 
     const prevExperience = () => {
@@ -166,6 +171,11 @@ const Experience = () => {
         setTimeout(() => {
             slideInFromRight();
         }, 500);
+
+        setTimeout(() => {
+            const experienceCard = document.getElementById("experienceCard");
+            experienceCard.scrollIntoView({ behavior: 'auto', block: 'center' });
+        }, 600);
     };
 
     const currentExperience = experiences[currentIndex];
