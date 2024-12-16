@@ -111,16 +111,61 @@ const Experience = () => {
         }
     ];
 
+    // Slide Right & Left
+    function slideOutLeft() {
+        const toSlide = document.getElementById("experienceCard");
+        toSlide.style.transform = "translateX(-110%)";
+    }
+
+    function slideOutRight() {
+        const toSlide = document.getElementById("experienceCard");
+        toSlide.style.transform = "translateX(110%)";
+    }
+
+    function slideInFromLeft() {
+        const toSlide = document.getElementById("experienceCard");
+        toSlide.style.transform = "translateX(-110%)";  
+        toSlide.style.visibility = "hidden";
+        setTimeout(() => {
+            toSlide.style.visibility = "visible";
+            toSlide.style.transform = "translateX(0%)";
+        }, 500);
+    }
+    
+    function slideInFromRight() {
+        const toSlide = document.getElementById("experienceCard");
+        toSlide.style.transform = "translateX(110%)";  
+        toSlide.style.visibility = "hidden";
+        setTimeout(() => {
+            toSlide.style.visibility = "visible";
+            toSlide.style.transform = "translateX(0%)";
+        }, 500);
+    }
+
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const nextExperience = () => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % experiences.length);
+        slideOutRight();  
+
+        setTimeout(() => {
+            setCurrentIndex((prevIndex) => (prevIndex + 1) % experiences.length);
+        }, 500);
+
+        setTimeout(() => {
+            slideInFromLeft();
+        }, 500);
     };
 
     const prevExperience = () => {
-        setCurrentIndex((prevIndex) =>
-            prevIndex === 0 ? experiences.length - 1 : prevIndex - 1
-        );
+        slideOutLeft();  
+
+        setTimeout(() => {
+            setCurrentIndex((prevIndex) => prevIndex === 0 ? experiences.length - 1 : prevIndex - 1);  // Update to the previous experience
+        }, 500);
+
+        setTimeout(() => {
+            slideInFromRight();
+        }, 500);
     };
 
     const currentExperience = experiences[currentIndex];
@@ -130,7 +175,7 @@ const Experience = () => {
             <div className="experience-container">
                 <p className="experience-title">Experiences</p>
                 <div className="experience-card-wrapper">
-                    <div className="experience-card">
+                    <div id="experienceCard" className="experience-card">
                         <header className="experience-header">
                             <img src={currentExperience.logo} alt={currentExperience.company} className="company-logo" />
                             <div className="experience-header-info">
