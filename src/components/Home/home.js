@@ -16,7 +16,9 @@ const Home = () => {
                     </p>
                 </div>
                 <div className="profile-container">
-                    <img src={MansiPatel} alt="Mansi Patel" className="profile" />
+                    <a href="https://linkedin.com/in/mansijp" target="_blank" rel="noreferrer">
+                        <img src={MansiPatel} alt="Mansi Patel" className="profile" />
+                    </a>
                 </div>
             </div>
         </section>
