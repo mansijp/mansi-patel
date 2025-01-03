@@ -3,6 +3,7 @@
     padding: 3rem 0;
     background-color: var(--background-color);
     color: var(--title-text-color);
+    scroll-margin-top: 4rem;
 }
 
 .education-container {

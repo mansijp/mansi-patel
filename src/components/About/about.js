@@ -19,8 +19,9 @@ const About = () => {
     return (
         <section id="about">
             <div className="about-container">
+                <p className="about-me-title">More About Me</p>
                 <div className="about-content">
-                    <p className="about-me-title">More About Me</p>
+                    
                     <p className="about-me-description">
                         I am a fourth year Computer Engineering student at the Toronto Metropolitan University, specializing in Software 
                         Engineering (B.Eng). As an enthusiastic problem-solver, I am consistently improving upon Java, Python, and JavaScript.
