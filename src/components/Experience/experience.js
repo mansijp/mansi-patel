@@ -30,6 +30,7 @@ import WaveLogo from '../../img/skills/wave.png';
 import JiraLogo from '../../img/skills/jira.png';
 import ALMLogo from '../../img/skills/alm.png';
 import SmartsheetLogo from '../../img/skills/smartsheet.png';
+import MyBatisLogo from '../../img/skills/mybatis.png';
 
 const Experience = () => {
     const experiences = [
@@ -49,7 +50,8 @@ const Experience = () => {
                 { name: "SQL", logo: SQLLogo },
                 { name: "Websphere", logo: WebsphereLogo },
                 { name: "Jira", logo: JiraLogo },
-                { name: "ALM", logo: ALMLogo }
+                { name: "ALM", logo: ALMLogo },
+                { name: "MyBatis", logo: MyBatisLogo }
             ],
             tasks: [
                 "Achieved a 100% compliance rate for bug fixes and auditing AODA defects across two releases of the SOR-RL project.",

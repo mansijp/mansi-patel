@@ -32,6 +32,7 @@ import SmartsheetLogo from '../../img/skills/smartsheet.png';
 import FastAPILogo from '../../img/skills/fastapi.png';
 import FlaskLogo from '../../img/skills/flask.png';
 import NetlifyLogo from '../../img/skills/netlify.png';
+import MyBatisLogo from '../../img/skills/mybatis.png';
 
 const Skills = () => {
 
@@ -105,9 +106,14 @@ const Skills = () => {
                             <p className='skill-text'>SQL</p>
                         </div>
                         <div className='skill-item'>
-                            <img className='skill-img' src={OracleLogo} alt="Oracle Logo" />
-                            <p className='skill-text'>Oracle</p>
+                            <img className='skill-img' src={MyBatisLogo} alt="MyBatis Logo" />
+                            <p className='skill-text'>MyBatis</p>
                         </div>
+                        <div className='skill-item'>
+                            <img className='skill-img' src={OracleLogo} alt="Oracle Logo" />
+                            <p className='skill-text'>Oracle DBMS</p>
+                        </div>
+
                     </div>
                 );
             case 'version-control':
