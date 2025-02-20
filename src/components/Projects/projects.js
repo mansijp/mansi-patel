@@ -37,12 +37,13 @@ import FigmaLogo from '../../img/skills/figma.png';
 import DockerLogo from '../../img/skills/docker.png';
 import KubernetesLogo from '../../img/skills/kubernetes.png';
 import GKELogo from '../../img/skills/gke.png';
+import FastAPILogo from '../../img/skills/fastapi.png';
 
 const projects = [
     {
         title: "This Website!",
         githubLink: "https://github.com/mansijp/mansi-patel",
-        skills: [JSLogo, CSS3Logo, HTML5Logo, ReactLogo, GitLogo],
+        skills: [[JSLogo, "JavaScript"], [CSS3Logo, "CSS3"], [HTML5Logo, "HTML5"], [ReactLogo, "React"], [GitLogo, "Git"]],          
         description: [
             "Built a full-stack web application with a ReactJS front-end, and JavaScript backend.",
             "Implemented a user-friendly interface with CSS styling and appealing color theme.",
@@ -55,7 +56,7 @@ const projects = [
     {
         title: "Emotion Detection Application",
         githubLink: "https://github.com/mansjp/EmotionDetectionApp",
-        skills: [PythonLogo, CSS3Logo, HTML5Logo, GitLogo],
+        skills: [[PythonLogo, "Python"], [CSS3Logo,"CSS3"], [HTML5Logo,"HTML5"], [GitLogo, "Git"]],
         description: [
             "Developed a Python based emotion detection application with a pre-trained deep learning model.",
             "Identifies and counts through 5 emotions including happy, sad, shock, anger, and neutrality.",
@@ -67,7 +68,7 @@ const projects = [
     {
         title: "BizPoints: Resources Module",
         githubLink: "https://github.com/mansijp/resources-and-programs",
-        skills: [ReactLogo, JSLogo, MongoDBLogo, HTML5Logo, CSS3Logo],
+        skills: [[ReactLogo, "React"], [JSLogo, "JavaScript"], [MongoDBLogo, "MongoDB"], [HTML5Logo, "HTML5"], [CSS3Logo, "CSS3"]],
         description: [
             "Developed a responsive full-stack ReactJS application with a JavaScript backend to provide resources and training programs for AlphaBiz Clients.",
             "Implemented the backend logic and API endpoints with real-time data IO for the CPS714 (Software Project Management) class.",
@@ -79,14 +80,14 @@ const projects = [
     {
         title: "Library Management System",
         githubLink: "https://github.com/mansijp/Library-Management-System",
-        skills: [PythonLogo, CSS3Logo, HTML5Logo, FigmaLogo, MongoDBLogo, DockerLogo, KubernetesLogo, GKELogo],
+        skills: [[PythonLogo, "Python"], [FastAPILogo, "FastAPI"], [CSS3Logo, "CSS3"], [HTML5Logo, "HTML5"], [FigmaLogo, "Figma"], [MongoDBLogo, "MongoDB"], [DockerLogo, "Docker"], [KubernetesLogo, "Kubernetes"], [GKELogo, "Google Cloud"]],          
         description: [
             <>
                 <p><i><b>Capstone: still in development</b></i></p>
             </>,
             "Developing a libray management system to reduce manual efforts and errors with customer or catalog management and administration.",
-            "Implementing a microservice architecture with Flask application and static HTML and CSS web pages.",
-            "Deploying on a cloud environment using Docker images and Kubernetes clusters on Google Kubernetes Engine."
+            "Implementing a microservice architecture with FastAPI applications and static HTML and CSS web pages.",
+            "Deploying on a cloud environment using Docker images, Kubernetes clusters, and the Google Kubernetes Engine on GCloud."
         ],
         image: LibraryManagement,
         staticImage: LibraryManagementThumb
@@ -94,7 +95,7 @@ const projects = [
     {
         title: "BookStore Application",
         githubLink: "https://github.com/mansijp/BookStoreApplication",
-        skills: [JavaLogo, JavaFXLogo, GitLogo],
+        skills: [[JavaLogo, "Java"], [JavaFXLogo, "JavaFX"], [GitLogo, "Git"]],
         description: [
             "Developed a Java bookstore application for item and customer management as a group project for COE528 (Object Oriented Analysis & Design).",
             "Implemented various software design patterns and object relationships.",
@@ -107,7 +108,7 @@ const projects = [
     {
         title: "Phish Me!",
         githubLink: "https://github.com/mansijp/Phish-It",
-        skills: [JSLogo, CSS3Logo, HTML5Logo, ReactLogo],
+        skills: [[JSLogo, "JavaScript"], [CSS3Logo, "CSS3"], [HTML5Logo, "HTML5"], [ReactLogo, "React"]],
         description: [
             "Created a ReactJS web application to spread awareness about phishing emails and cybersecurity.",
             "Won the Cybersecurity Award from the Level-Up Socity hackathon for innovation and gamified solution to prevent phishing attacks.",
@@ -152,7 +153,7 @@ const Projects = () => {
                             />
                             <div className="skills-list">
                                 {project.skills && project.skills.map((skill, idx) => (
-                                    <img key={idx} src={skill} alt="Skill" className="skill-icon" />
+                                    <img key={idx} src={skill[0]} alt={skill[1]} className="skill-icon" title={skill[1]} />
                                 ))}
                             </div>
                             <div className="project-description">

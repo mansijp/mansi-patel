@@ -52,16 +52,16 @@ const Experience = () => {
                 { name: "ALM", logo: ALMLogo }
             ],
             tasks: [
-                "Performed bug fixes and AODA defects for two releases of the SOR-RL project.",
-                "Resolved Jira defects, added new features, and ensured AODA compliance for the SOR-RL project.",
-                "Reviewed business rules and thoroughly tested code prior to submission.",
-                "Optimized code for performance improvements.",
-                "Participated in an AI hackathon focusing on GIS and geospatial document processing.",
-                "Developed a Copilot model, PowerApps frontend, and presented frontend prototype to the team for the AI hackathon."
+                "Achieved a 100% compliance rate for bug fixes and auditing AODA defects across two releases of the SOR-RL project.",
+                "Resolved Jira defects and implemented new features, reducing ticket backlog by 5%.",
+                "Reviewed business rules to thoroughly test code, optimizing code quality leading to a 10% decline in post-release defects.",
+                "Optimized code with a Selenium script and Apache JMeter, improving performance and reducing execution time by 10 seconds.",
+                "Developed a Microsoft Copilot model, PowerApps frontend, and pitched a frontend prototype during an AI hackathon.",
+                "Participated in a Microsoft AI hackathon focusing on GIS and geospatial document processing."
             ]
         },
         {
-            title: "Scientific Research & Experimental Development Intern",
+            title: "Scientific Research & Experimental Development (SRED) Intern",
             company: "Ryan, LLC",
             logo: Ryan,
             dates: "July 2022 - August 2022",
@@ -70,9 +70,11 @@ const Experience = () => {
                 { name: "Excel VBA", logo: ExcelVBALogo }
             ],
             tasks: [
-                "Developed an Excel Workbook using Excel VBA, allowing engineering directors to automate Profit After Tax calculations.",
-                "Worked closely with the Software Engineering director to implement functional UI/UX requirements.",
-                "Pitched final project to the SRED team, met software requirements and achieved a VBA certification."
+                "Developed an Excel workbook using Excel VBA to automate the creation of workbooks for client SRED-qualifying projects, eliminating 2 hours of manual data entry time for company staff.",
+                "Designed a system with numerous subroutines and macros for data processing to improve the speed by 15% for Profit After Tax (PAT) calculations.",
+                "Explored the the Excel VBA library to reduce the script execution time by 20 seconds.",
+                "Implemented 4 requested software features in the Excel workbook from IT directors and engineers.",
+                "Gained proficiency in Excel VBA programming within 2 days, completing the certification 100% faster during onboarding."
             ]
         },
         {
@@ -85,9 +87,9 @@ const Experience = () => {
                 { name: "C", logo: CLogo }
             ],
             tasks: [
-                "Introduced elementary and secondary school females to the field of Computer Science and Technology.",
-                "Assisted 20 participants in developing error-free programs using the C programming language.",
-                "Worked with an excellent team to maintain time, participation, and positive environment."
+                "Increased female participation in STEM by 25%, introducing elementary and secondary school students to Computer Science and Technology.",
+                "Facilitated a hands-on coding workshop for 30 participants to develop error-free programs using the C programming language.",
+                "Collaborated with a team to ensure time management, a positive learning environment, and high engagement."
             ]
         },
         {
@@ -103,10 +105,10 @@ const Experience = () => {
                 { name: "Smartsheet", logo: SmartsheetLogo },
             ],
             tasks: [
-                "Designed kXG Credential webpages using HTML5 and CSS3 on Adobe Dreamweaver.",
-                "Streamlined the rebranding of Qtrade Direct Investing with the VP of Product Marketing.",
-                "Incorporated Smartsheet, InVision, Figma, Google Analytics, and Dialogue Insights in projects.",
-                "Arranged, booked, attended, and managed agency onboarding meetings."
+                "Collaborated with the VP of Product Marketing with the rebranding of Qtrade Direct Investing by planning and scheduling meetings.",
+                "Implemented new webpages for kXG Credential using HTML5, CSS3, and Adobe Dreamweaver to enhance the user engagement by 20%.",
+                "Utilized industry tools including Smartsheet, InVision, Figma, Google Analytics, Dialogue Insights, and Microsoft BI to analyze and increase rebranding task efficiency by 15%.",
+                "Streamlined the transcription of responses during client interviews on user experience, reducing the analysis time by 45 minutes."
             ]
         }
     ];

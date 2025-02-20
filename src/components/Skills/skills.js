@@ -29,6 +29,9 @@ import ALMLogo from '../../img/skills/alm.png';
 import MSProjectLogo from '../../img/skills/msproject.png';
 import GKELogo from '../../img/skills/gke.png';
 import SmartsheetLogo from '../../img/skills/smartsheet.png';
+import FastAPILogo from '../../img/skills/fastapi.png';
+import FlaskLogo from '../../img/skills/flask.png';
+import NetlifyLogo from '../../img/skills/netlify.png';
 
 const Skills = () => {
 
@@ -83,6 +86,10 @@ const Skills = () => {
                         <div className='skill-item'>
                             <img className='skill-img' src={GKELogo} alt="GKE Logo" />
                             <p className='skill-text'>Google Cloud</p>
+                        </div>
+                        <div className='skill-item'>
+                            <img className='skill-img' src={NetlifyLogo} alt="Netlify Logo" />
+                            <p className='skill-text'>Netlify</p>
                         </div>
                     </div>
                 );
@@ -139,6 +146,18 @@ const Skills = () => {
                             <p className='skill-text'>ReactJS</p>
                         </div>
                         <div className='skill-item'>
+                            <img className='skill-img' src={NodeLogo} alt="NodeJS Logo" />
+                            <p className='skill-text'>NodeJS</p>
+                        </div>
+                        <div className='skill-item'>
+                            <img className='skill-img' src={FastAPILogo} alt="FastAPI Logo" />
+                            <p className='skill-text'>FastAPI</p>
+                        </div>
+                        <div className='skill-item'>
+                            <img className='skill-img' src={FlaskLogo} alt="Flask Logo" />
+                            <p className='skill-text'>Flask</p>
+                        </div>
+                        <div className='skill-item'>
                             <img className='skill-img' src={SpringLogo} alt="Spring Logo" />
                             <p className='skill-text'>Spring</p>
                         </div>
@@ -149,10 +168,6 @@ const Skills = () => {
                         <div className='skill-item'>
                             <img className='skill-img' src={WebsphereLogo} alt="Websphere Logo" />
                             <p className='skill-text'>Websphere</p>
-                        </div>
-                        <div className='skill-item'>
-                            <img className='skill-img' src={NodeLogo} alt="NodeJS Logo" />
-                            <p className='skill-text'>NodeJS</p>
                         </div>
                     </div>
                 );

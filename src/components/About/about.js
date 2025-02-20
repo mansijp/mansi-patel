@@ -23,17 +23,17 @@ const About = () => {
                 <div className="about-content">
                     
                     <p className="about-me-description">
-                        I am a fourth year Computer Engineering student at the Toronto Metropolitan University, specializing in Software 
-                        Engineering (B.Eng). As an enthusiastic problem-solver, I am consistently improving upon Java, Python, and JavaScript.
-                        Web development is a field that I am currently exploring through frameworks including Spring, AngularJS and React.
+                        I am a fourth year Computer Engineering student at the Toronto Metropolitan University, 
+                        specializing in Software Engineering (B.Eng).
                         <br/><br/>
-                        I also have a growing curiosity in Artificial Intelligence, specifically generative AI, AI document-processing, and 
-                        computer vision. I am interested in the future with AI and aim to get relevant work experience using AI within the 
-                        company. 
+                        As an enthusiastic problem-solver, I am consistently improving upon Java, 
+                        Python, and JavaScript. Web development is a field that I am currently exploring through frameworks 
+                        including Spring, ReactJS and FastAPIs. I also have a growing curiosity in Artificial Intelligence,
+                        AI document-processing, and computer vision. 
                         <br/><br/>
-                        Aside from my interest in technology, I always have time for my hobbies. I make piano covers on YouTube and 
-                        transcribe songs into sheet music. I also love to practice my tech and problem-solving skills during hackathons and 
-                        network with other individuals! There’s also always an ebook with me whenever I’m on-the-go! 
+                        Aside from my interest in technology, I always have time for my hobbies. I make piano covers 
+                        on YouTube and transcribe songs into sheet music. I also love to work on my problem-solving skills at 
+                        hackathons and meet individuals! There’s also always an ebook with me whenever I’m on-the-go!
                     </p>
 
                     <div className="line-container"><i id="enlarge-instruct">Click image to enlarge!</i></div><hr id="line-break" />
