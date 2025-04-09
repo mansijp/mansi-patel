@@ -17,7 +17,7 @@ import LibraryManagement from '../../img/projects/librarymanagement.gif';
 import LibraryManagementThumb from '../../img/projects/librarymanagement.JPG';
 // 5
 import EmotionDetection from '../../img/projects/emotiondetection.gif';
-import EmotionDetectionThumb from '../../img/about/emotiondetection.png';
+import EmotionDetectionThumb from '../../img/projects/emotiondetection.png';
 // 6
 import Bizpoints from '../../img/projects/bizpoints.gif';
 import BizpointsThumb from '../../img/projects/bizpoints.JPG';
@@ -55,7 +55,7 @@ const projects = [
     },
     {
         title: "Emotion Detection Application",
-        githubLink: "https://github.com/mansjp/EmotionDetectionApp",
+        githubLink: "https://github.com/mansijp/EmotionDetectionApp",
         skills: [[PythonLogo, "Python"], [CSS3Logo,"CSS3"], [HTML5Logo,"HTML5"], [GitLogo, "Git"]],
         description: [
             "Developed a Python based emotion detection application with a pre-trained deep learning model.",
@@ -79,7 +79,7 @@ const projects = [
     },
     {
         title: "Library Management System",
-        githubLink: "https://github.com/mansijp/Library-Management-System",
+        githubLink: "https://github.com/mansijp/LMS_CAPSTONE_2025/",
         skills: [[PythonLogo, "Python"], [FastAPILogo, "FastAPI"], [CSS3Logo, "CSS3"], [HTML5Logo, "HTML5"], [FigmaLogo, "Figma"], [MongoDBLogo, "MongoDB"], [DockerLogo, "Docker"], [KubernetesLogo, "Kubernetes"], [GKELogo, "Google Cloud"]],          
         description: [
             <>
@@ -87,7 +87,13 @@ const projects = [
             </>,
             "Developing a libray management system to reduce manual efforts and errors with customer or catalog management and administration.",
             "Implementing a microservice architecture with FastAPI applications and static HTML and CSS web pages.",
-            "Deploying on a cloud environment using Docker images, Kubernetes clusters, and the Google Kubernetes Engine on GCloud."
+            "Deploying on a cloud environment using Docker images, Kubernetes clusters, and the Google Kubernetes Engine on GCloud.",
+            <>
+                Access the application here: {" "}
+                <a id="project-link" href="https://34.47.39.132/auth" target="_blank" rel="noopener noreferrer">
+                    <br/><b>Library Management System</b>
+                </a>
+            </>
         ],
         image: LibraryManagement,
         staticImage: LibraryManagementThumb
@@ -114,7 +120,7 @@ const projects = [
             "Won the Cybersecurity Award from the Level-Up Socity hackathon for innovation and gamified solution to prevent phishing attacks.",
             <>
                 Pitched project and idea to judges:{" "}
-                <a href="https://www.youtube.com/watch?v=r7kYrnl168w" target="_blank" rel="noopener noreferrer">
+                <a id="project-link" href="https://www.youtube.com/watch?v=r7kYrnl168w" target="_blank" rel="noopener noreferrer">
                     <br/><b>Phish-Me Presentation | YT</b>
                 </a>
             </>

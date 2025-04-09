@@ -127,6 +127,10 @@
     margin: 0 0 2rem 0;    
 }
 
+#project-link {
+    color: #0077ff;
+}
+
 @media (max-width: 450px) {
     .project-card{
         width: 90%;

@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css';
-import MansiPatel from '../../img/home/mansi.jpg';
+import MansiPatel from '../../img/home/mansi.png';
 
 const Home = () => {
     return (
@@ -11,8 +11,8 @@ const Home = () => {
                     <span className="intro">I'm <span className="name">Mansi Patel</span></span><br/>
                     <hr id="line"/>
                     <p className="intro-text">
-                        I am a Software Engineer with a passion in full-stack development, DevOps,
-                        cloud computing, and mobile app development.
+                        I am a Software Engineer with a passion in Full-Stack Development, DevOps,
+                        Cloud Computing, and Mobile App Development.
                     </p>
                 </div>
                 <div className="profile-container">
