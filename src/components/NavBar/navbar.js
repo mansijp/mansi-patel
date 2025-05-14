@@ -6,7 +6,7 @@ import resumeBlack from '../../img/navbar/resume-blue.png';
 import menuIcon from '../../img/navbar/menu.png';
 import LightSetting from '../../img/light-setting.png';
 import { HashLink } from 'react-router-hash-link';
-import resume from '../../pages/Mansi_Patel_New.pdf';
+import resume from '../../pages/Mansi_Patel.pdf';
 
 const Navbar = ({setIsNight, isNight}) => {
     const [resumeIcon, setResumeIcon] = useState(resumeWhite);

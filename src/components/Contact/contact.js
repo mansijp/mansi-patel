@@ -25,7 +25,7 @@ const Contact = () => {
                             <a href="https://devpost.com/mansijp" target="_blank" rel="noreferrer"><img className='contact' src={devpost} alt="Devpost" /></a>
                         </div>
                     </div>
-                    <span className='copyright'>© Mansi Patel 2024</span>
+                    <span className='copyright'>© Mansi Patel 2025</span>
                 </div>
             </div>
         </section>

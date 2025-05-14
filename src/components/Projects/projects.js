@@ -21,6 +21,9 @@ import EmotionDetectionThumb from '../../img/projects/emotiondetection.png';
 // 6
 import Bizpoints from '../../img/projects/bizpoints.gif';
 import BizpointsThumb from '../../img/projects/bizpoints.JPG';
+// 7
+import RoverOperatorDashboard from '../../img/projects/roveroperatordashboard.gif';
+import RoverOperatorDashboardThumb from '../../img/projects/roveroperatordashboardthumb.JPG';
 
 
 // Skills Logos
@@ -38,6 +41,8 @@ import DockerLogo from '../../img/skills/docker.png';
 import KubernetesLogo from '../../img/skills/kubernetes.png';
 import GKELogo from '../../img/skills/gke.png';
 import FastAPILogo from '../../img/skills/fastapi.png';
+import NginxLogo from '../../img/skills/nginx.png';
+import AzureLogo from '../../img/skills/azure.png';
 
 const projects = [
     {
@@ -48,22 +53,52 @@ const projects = [
             "Built a full-stack web application with a ReactJS front-end, and JavaScript backend.",
             "Implemented a user-friendly interface with CSS styling and appealing color theme.",
             "Applied custom light setting functionality for improved user experience.",
-            "Applied code versioning using Git."
+            "Applied code versioning using Git.",
+            <>
+                Access the application here: {" "}
+                <a id="project-link" href="https://mansi-patel.netlify.app/#home" rel="noopener noreferrer">
+                    <br/><b>Mansi Patel's Website</b>
+                </a>
+            </>
         ],
         image: ThisWebsite,
         staticImage: ThisWebsiteThumb
     },
     {
-        title: "Emotion Detection Application",
-        githubLink: "https://github.com/mansijp/EmotionDetectionApp",
-        skills: [[PythonLogo, "Python"], [CSS3Logo,"CSS3"], [HTML5Logo,"HTML5"], [GitLogo, "Git"]],
+        title: "Library Management System",
+        githubLink: "https://github.com/mansijp/LMS_CAPSTONE_2025/",
+        skills: [[PythonLogo, "Python"], [FastAPILogo, "FastAPI"], [CSS3Logo, "CSS3"], [HTML5Logo, "HTML5"], [FigmaLogo, "Figma"], [MongoDBLogo, "MongoDB"], [DockerLogo, "Docker"], [KubernetesLogo, "Kubernetes"], [GKELogo, "Google Cloud"], [NginxLogo, "NGINX Logo"]],          
         description: [
-            "Developed a Python based emotion detection application with a pre-trained deep learning model.",
-            "Identifies and counts through 5 emotions including happy, sad, shock, anger, and neutrality.",
-            "Created a simple GUI for ideal user experience with controlling the webcam and viewing emotion count."
+            "Developed a libray management system to reduce manual efforts and errors with customer or catalog management and administration.",
+            "Implemented a microservice architecture with FastAPI applications, JavaScript, HTML, CSS and Bootstrap.",
+            "Deployed on Google Cloud using Docker, Kubernetes, and the Google Kubernetes Engine with NGINX and Ingress.",
+            <>
+                Access the application here: {" "}
+                <a id="project-link" href="https://34.47.39.132/auth" target="_blank" rel="noopener noreferrer">
+                    <br/><b>Library Management System</b>
+                </a>
+            </>
         ],
-        image: EmotionDetection,
-        staticImage: EmotionDetectionThumb
+        image: LibraryManagement,
+        staticImage: LibraryManagementThumb
+    },
+    {
+        title: "Rover Operator Dashboard",
+        githubLink: "https://github.com/mansijp/Rover-Navigator-and-Operator",
+        skills: [[PythonLogo, "Python"], [AzureLogo, "Azure"], [DockerLogo, "Docker"], [JSLogo,"JavaScript"], [HTML5Logo,"HTML5"], [CSS3Logo, "CSS3"], [GitLogo, "Git"]],
+        description: [
+            "Innovated a responsive Python algorithm enabling rover navigation on a dynamic map and CRUD operations for disarming mines.",
+            "Deployed and tested the scalable application using Docker and Microsoft Azure with concurrent access for multiple users.",
+            "Implemented Bootstrap techniques and improved UI elements for optimal user experience and responsiveness.",
+            <>
+                Access the application here: {" "}
+                <a id="project-link" href="https://coe892lab42025g17-eubjf7asb2acbpdx.canadacentral-01.azurewebsites.net/lab4" target="_blank" rel="noopener noreferrer">
+                    <br/><b>Rover Operator Dashboard</b>
+                </a>
+            </>
+        ],
+        image: RoverOperatorDashboard,
+        staticImage: RoverOperatorDashboardThumb
     },
     {
         title: "BizPoints: Resources Module",
@@ -78,28 +113,7 @@ const projects = [
         staticImage: BizpointsThumb
     },
     {
-        title: "Library Management System",
-        githubLink: "https://github.com/mansijp/LMS_CAPSTONE_2025/",
-        skills: [[PythonLogo, "Python"], [FastAPILogo, "FastAPI"], [CSS3Logo, "CSS3"], [HTML5Logo, "HTML5"], [FigmaLogo, "Figma"], [MongoDBLogo, "MongoDB"], [DockerLogo, "Docker"], [KubernetesLogo, "Kubernetes"], [GKELogo, "Google Cloud"]],          
-        description: [
-            <>
-                <p><i><b>Capstone: still in development</b></i></p>
-            </>,
-            "Developing a libray management system to reduce manual efforts and errors with customer or catalog management and administration.",
-            "Implementing a microservice architecture with FastAPI applications and static HTML and CSS web pages.",
-            "Deploying on a cloud environment using Docker images, Kubernetes clusters, and the Google Kubernetes Engine on GCloud.",
-            <>
-                Access the application here: {" "}
-                <a id="project-link" href="https://34.47.39.132/auth" target="_blank" rel="noopener noreferrer">
-                    <br/><b>Library Management System</b>
-                </a>
-            </>
-        ],
-        image: LibraryManagement,
-        staticImage: LibraryManagementThumb
-    },
-    {
-        title: "BookStore Application",
+        title: "BookStore App",
         githubLink: "https://github.com/mansijp/BookStoreApplication",
         skills: [[JavaLogo, "Java"], [JavaFXLogo, "JavaFX"], [GitLogo, "Git"]],
         description: [

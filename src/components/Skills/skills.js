@@ -34,6 +34,7 @@ import FlaskLogo from '../../img/skills/flask.png';
 import NetlifyLogo from '../../img/skills/netlify.png';
 import MyBatisLogo from '../../img/skills/mybatis.png';
 import AzureLogo from '../../img/skills/azure.png';
+import NginxLogo from '../../img/skills/nginx.png';
 
 const Skills = () => {
 
@@ -96,6 +97,10 @@ const Skills = () => {
                         <div className='skill-item'>
                             <img className='skill-img' src={AzureLogo} alt="Azure Logo" />
                             <p className='skill-text'>Azure</p>
+                        </div>
+                        <div className='skill-item'>
+                            <img className='skill-img' src={NginxLogo} alt="NGINX Logo" />
+                            <p className='skill-text'>NGINX</p>
                         </div>
                     </div>
                 );

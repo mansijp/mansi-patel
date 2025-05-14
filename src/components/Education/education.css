@@ -2,6 +2,8 @@
     width: 100%;
     padding: 3rem 0;
     background-color: var(--background-color);
+    background-image: var(--background-image);
+    background-size: var(--background-size);
     color: var(--title-text-color);
     scroll-margin-top: 4rem;
 }
@@ -52,6 +54,12 @@
     margin-bottom: 1rem;
 }
 
+.education-title-2 {
+    font-size: 1.5rem;
+    color: var(--normal-text-color);
+    margin-bottom: 1.5rem;
+}
+
 .education-subtitle {
     font-size: 1.2rem;
     font-weight: normal;
@@ -67,7 +75,7 @@
 }
 
 .education-duration {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #0077ff;
     font-weight: bold;
 }
