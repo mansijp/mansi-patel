@@ -16,8 +16,8 @@ import PhishMeThumb from '../../img/projects/phishme.JPG';
 import LibraryManagement from '../../img/projects/librarymanagement.gif';
 import LibraryManagementThumb from '../../img/projects/librarymanagement.JPG';
 // 5
-import EmotionDetection from '../../img/projects/emotiondetection.gif';
-import EmotionDetectionThumb from '../../img/projects/emotiondetection.png';
+//import EmotionDetection from '../../img/projects/emotiondetection.gif';
+//import EmotionDetectionThumb from '../../img/projects/emotiondetection.png';
 // 6
 import Bizpoints from '../../img/projects/bizpoints.gif';
 import BizpointsThumb from '../../img/projects/bizpoints.JPG';
