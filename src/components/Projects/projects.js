@@ -107,7 +107,13 @@ const projects = [
         description: [
             "Developed a responsive full-stack ReactJS application with a JavaScript backend to provide resources and training programs for AlphaBiz Clients.",
             "Implemented the backend logic and API endpoints with real-time data IO for the CPS714 (Software Project Management) class.",
-            "Created a Work Breakdown Structure on MS Project to allocate resources as the group's Project Manager."
+            "Created a Work Breakdown Structure on MS Project to allocate resources as the group's Project Manager.",
+            <>
+                View the Project Demonstration Here: {" "}
+                <a id="project-link" href="https://www.youtube.com/watch?v=OtOXUlREQUA" target="_blank" rel="noopener noreferrer">
+                    <br/><b>BizPoints Learning Platform Demo</b>
+                </a>
+            </>
         ],
         image: Bizpoints,
         staticImage: BizpointsThumb
